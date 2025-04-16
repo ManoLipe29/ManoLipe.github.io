@@ -1,52 +1,36 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>calculadora</title>
-   <link rel="stylesheet" href="style.css">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="calculadora">
-        <input type="text" id="display" disable>
-       
+        <input type="text" id="display" disabled>
         <div class="teclado">
-
-        <button onclick="limpar()" >C</button>
-          
-        <button onclick="adicionarValor('/')"> / </button>
-        <button onclick="adicionarValor('*')"> * </button>
-        <button onclick="adicionarValor('-')"> - </button>
-          
-           
-        <button onclick="AdicionarValor('1')"> 1</button>
-        <button onclick="AdicionarValor('2')"> 2</button>
-        <button onclick="AdicionarValor('3')"> 3</button>
-        <button onclick="AdicionarValor('4')"> 4</button>
-        <button onclick="AdicionarValor('5')"> 5</button>
-        <button onclick="AdicionarValor('6')"> 6</button>
-        <button onclick="AdicionarValor('7')"> 7</button>
-        <button onclick="AdicionarValor('8')"> 8</button>
-        <button onclick="AdicionarValor('9')"> 9</button>
-        <button onclick="AdicionarValor('10')">10</button>
-        <button onclick="AdicionarValor('11')">11</button>
-        <button onclick="AdicionarValor('12')">12</button>
-        <button onclick="AdicionarValor('13')">13</button>
-        <button onclick="AdicionarValor('14')">14</button>
-        <button onclick="AdicionarValor('15')">15</button>
-        <button onclick="AdicionarValor('16')">16</button>
-        <button onclick="AdicionarValor('17')">17</button>
-        <button onclick="AdicionarValor('18')">18</button>
-        <button onclick="AdicionarValor('19')">19</button>
-
-        
-        
+            <button onclick="limpar()">C</button>
+            <button onclick="adicionarValor('/')">/</button>
+            <button onclick="adicionarValor('*')">*</button>
+            <button onclick="adicionarValor('-')">-</button>
+            
+            <button onclick="adicionarValor('7')">7</button>
+            <button onclick="adicionarValor('8')">8</button>
+            <button onclick="adicionarValor('9')">9</button>
+            <button onclick="adicionarValor('+')">+</button>
+            
+            <button onclick="adicionarValor('4')">4</button>
+            <button onclick="adicionarValor('5')">5</button>
+            <button onclick="adicionarValor('6')">6</button>
+            <button onclick="calcular()">=</button>
+            
+            <button onclick="adicionarValor('1')">1</button>
+            <button onclick="adicionarValor('2')">2</button>
+            <button onclick="adicionarValor('3')">3</button>
+            <button onclick="adicionarValor('0')" class="zero">0</button>
+            <button onclick="adicionarValor('.')">.</button>
+        </div>
     </div>
-        <p id="mensagem"></p>
-    </div>
-    <script src="script.js"></script>
-        
-        
-
+  <script src="script.js"></script>
 </body>
-</html>
