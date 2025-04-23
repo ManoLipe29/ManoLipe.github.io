@@ -1,1 +1,11 @@
-
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="content-type" content="application/xhtml+xml; charset=utf-8" />
+    <title>`substitute(Filename('', 'Page Title'), '^.', '\u&', '')`</title>
+    meta
+  </head>
+  <body>
+    body
+  </body>
+</html>
